@@ -1,4 +1,4 @@
-# mirror_matrix
+# Mirror_Matrix
 
 Mirror Matrix is a research-oriented project focused on a matrix-based analytic framework and a spin-sweep investigation described in the repository’s primary artifact: `Mirror_Matrix_Spin_Sweep_Ronio.pdf`.
 
