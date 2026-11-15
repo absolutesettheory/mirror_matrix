@@ -1,0 +1,63 @@
+# Certification workflow
+
+This document explains the purpose and operation of the certification script in this repository.
+
+## Script
+
+The repository includes:
+
+- `certify_mirror_quilt.py`
+
+This script is designed to validate the Mirror-Quilt framework’s claimed invariants using matrix and geometric checks, then emit a cryptographic seal based on the SHA-256 hash chain.
+
+## What it checks
+
+The script performs a series of checks, including:
+
+- determinant sign checks,
+- closure of spin sweeps,
+- mirror / reflection composition validations,
+- parity and handedness tests,
+- path independence and loop closure behavior,
+- and a final hash-bound certification log.
+
+The logic is intended to verify that the framework remains internally consistent across a 360-degree sweep and that the result is stable under the modeled transformations.
+
+## Hash seal
+
+The script creates a SHA-256 hash chain over a rotation sweep from 0° to 360° and combines that with:
+
+- the certification log,
+- the hash of each input figure,
+- and the final seal output.
+
+This produces a deterministic verification value that is bound to both the computation log and the figure artifacts being certified.
+
+## Usage
+
+Install dependencies:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+Run the script:
+
+```bash
+python3 certify_mirror_quilt.py fig1.png fig2.png
+```
+
+The output includes:
+
+- the pass/fail log,
+- the hash chain value,
+- hashes for each input figure,
+- and the final certification seal.
+
+## Security model
+
+This script relies on SHA-256 for integrity and binding. The security model is deterministic and audit-friendly: the final seal depends on the computed sweep data, the verification log, and the input figure hashes.
+
+## Notes
+
+This repository remains primarily a research artifact bundle. The certification script is a verification utility attached to the concept and material in this project, rather than a general-purpose library or framework.
