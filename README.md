@@ -1,26 +1,46 @@
-# Mirror Matrix
+# mirror_matrix
 
-This repository contains the document artifact for the project titled:
+A lightweight research artifact repository for the Mirror Matrix project, centered on the primary report file:
 
-- Mirror_Matrix_Spin_Sweep_Ronio.pdf
+- `Mirror_Matrix_Spin_Sweep_Ronio.pdf`
 
-The PDF is the primary research/publication file in this repository and is provided as a standalone archival object.
+This repository is intended to preserve, explain, and make the current project artifact easier to find, cite, and discuss. It currently focuses on documentation and project metadata rather than a full software application or codebase.
 
 ## Contents
 
-- `Mirror_Matrix_Spin_Sweep_Ronio.pdf` — main document
+- `Mirror_Matrix_Spin_Sweep_Ronio.pdf` — primary project artifact/report
+- `docs/overview.md` — high-level project overview and repository context
+- `docs/methodology.md` — summary of the likely analytical or technical approach
+- `docs/figures.md` — notes for the figures and visual outputs
 - `LICENSE` — repository license
+- `CITATION.cff` — preferred citation metadata
+- `CHANGELOG.md` — version and release history
+- `CONTRIBUTING.md` — contribution guidelines
 
-## Purpose
+## Repository status
 
-This project is a lightweight repository for preserving and sharing the Mirror Matrix / Spin Sweep Ronio document in an accessible format. It is intended for archival, distribution, and reference use.
+This repository currently behaves like a static research archive or artifact bundle. It does not include a build system, package manifest, runtime, or software entry point. The emphasis is on preserving the report and making the project easier to understand and reference.
+
+## How to use this repository
+
+To explore the repository locally:
+
+```bash
+git clone https://github.com/absolutesettheory/mirror_matrix.git
+cd mirror_matrix
+ls
+```
+
+Open the PDF in the repository root or read the supporting notes in `docs/`.
+
+## Citation
+
+If you use this work in a publication or project, please follow the metadata in `CITATION.cff`.
 
 ## License
 
-This repository is licensed under the Creative Commons Zero v1.0 Universal (`CC0 1.0`), which means the work may be used, copied, modified, and distributed without restriction.
+This project is distributed under the license in `LICENSE`.
 
-## Notes
+## Contribution
 
-- The repository is intentionally minimal.
-- The PDF may be viewed directly in GitHub or downloaded locally.
-- The project is published as open material under the repository license.
+See `CONTRIBUTING.md` for guidance on improving the project documentation and artifact organization.
