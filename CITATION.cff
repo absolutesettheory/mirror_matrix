@@ -1,13 +1,1 @@
-cff-version: 1.2.0
-message: "If you use this repository or its associated artifact in your work, please cite it as below."
-title: "mirror_matrix"
-authors:
-  - family-names: "Unknown"
-    given-names: "Author"
-    affiliation: "Repository contributor"
-version: "1.0.0"
-date-released: "2026-11-15"
-repository-code: "https://github.com/absolutesettheory/mirror_matrix"
-url: "https://github.com/absolutesettheory/mirror_matrix/tree/v1.0"
-license: "MIT"
-abstract: "A research artifact and documentation bundle associated with the Mirror Matrix project and the associated spin sweep report."
+Ronio, C. T. (2026). *mirror_matrix* (Version 1.0.0) [Computer software]. GitHub. https://github.com/absolutesettheory/mirror_matrix
